@@ -1,0 +1,18 @@
+PuppetModule
+============
+
+Puppet Labs maintains a marketplace for Puppet modules, the Forge. Integrating your GitHub repository with the Forge makes it easy to publish new versions of your Puppet modules.  When a new version tag is pushed to GitHub, the PuppetModule service hook will notify the Forge of the new tag, initiating the auto-publishing process.
+
+Install Notes
+-------------
+
+
+Developer Notes
+---------------
+
+data
+ - auth_token
+ - module_name
+
+payload
+ - refer to docs/github_payload

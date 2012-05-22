@@ -1,7 +1,7 @@
 require 'pp'
 class Service::PuppetModule < Service
-  string :username
-  string :api_token
+  string :auth_token
+  string :module_name
   
   def receive_push
     if tag? and created?

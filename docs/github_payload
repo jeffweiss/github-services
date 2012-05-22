@@ -2,10 +2,10 @@
 
 {
   "data" => {
-    "api_version" => "2.0.alpha1",
-    "username" => "jamie.winsor",
-    "password" => "passw0rd",
-    "server_url" => "http://jira"
+    "auth_token" => "1234abcd",
+    "module_name" => "service_hook",
+    "api_version" => "v1",
+    "server_url" => "https://forge.puppetlabs.com"
   },
 
   "payload" => { 
